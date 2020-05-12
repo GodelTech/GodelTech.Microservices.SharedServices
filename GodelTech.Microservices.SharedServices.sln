@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.Microservices.SharedServices", "src\GodelTech.Microservices.SharedServices\GodelTech.Microservices.SharedServices.csproj", "{EC13DC34-2028-4D98-9AC4-B1DDCA4AF2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.Microservices.SharedServices.Tests", "test\GodelTech.Microservices.SharedServices.Tests\GodelTech.Microservices.SharedServices.Tests.csproj", "{7C25D8D4-460D-469B-BF7B-0AAD4B139AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC13DC34-2028-4D98-9AC4-B1DDCA4AF2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC13DC34-2028-4D98-9AC4-B1DDCA4AF2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC13DC34-2028-4D98-9AC4-B1DDCA4AF2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC13DC34-2028-4D98-9AC4-B1DDCA4AF2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C25D8D4-460D-469B-BF7B-0AAD4B139AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C25D8D4-460D-469B-BF7B-0AAD4B139AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C25D8D4-460D-469B-BF7B-0AAD4B139AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C25D8D4-460D-469B-BF7B-0AAD4B139AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B189DA7-1E33-4251-ABD0-D89E6C23E57E}
+	EndGlobalSection
+EndGlobal
