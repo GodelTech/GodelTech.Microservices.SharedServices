@@ -1,9 +1,3 @@
-resources:
-  repositories:
-  - repository: GodelTech
-    type: github
-    endpoint: godeltech
-    ref: refs/heads/master
 trigger:
   batch: true
   branches:
