@@ -3,7 +3,6 @@ resources:
   - repository: GodelTech
     type: github
     endpoint: godeltech
-    name: GodelTech/AzureDevOps.Pipeline.Templates
     ref: refs/heads/master
 trigger:
   batch: true
