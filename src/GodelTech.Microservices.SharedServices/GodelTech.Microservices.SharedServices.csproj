@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <PackageId>GodelTech.Microservices.SharedServices</PackageId>
     <PackageTags>.netcore netcore microservice</PackageTags>
     <Copyright>Godel Technologies Europe</Copyright>
@@ -8,14 +8,14 @@
     <Company>Godel Technologies Europe</Company>
     <Authors>Andrei Salanoi</Authors>
     <RepositoryUrl>https://github.com/GodelTech/GodelTech.Microservices.SharedServices</RepositoryUrl>
-    <VersionPrefix>1.1.0</VersionPrefix>
+    <VersionPrefix>1.2.0</VersionPrefix>
     <PackageIconUrl>https://www.gravatar.com/avatar/839234621070de51e7b9cabd5ceee8fe?s=64</PackageIconUrl>
     <!-- SonarQube needs this -->
     <ProjectGuid>{00000000-0000-0000-0000-000000000001}</ProjectGuid>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GodelTech.Microservices.Core" Version="1.3.0" />
+    <PackageReference Include="GodelTech.Microservices.Core" Version="1.4.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 </Project>
