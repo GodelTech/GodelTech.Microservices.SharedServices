@@ -1,6 +1,6 @@
 # GodeTech.Microservices.SharedServices
 
-# Description
+## Description
 `GodeTech.Microservices.SharedServices` is a collection of services which are used in particularly every project and typically copy\pasted from project to project. It contains a collection of reusable components and functions designed to assist in the development and maintenance of microservices
 
 ## Quick Start
@@ -266,5 +266,5 @@ RESULT: A file with name "201e3212-f244-4f29-abd7-e1a799b6d855" was created in t
     }
 ```
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
